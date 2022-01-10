@@ -4,10 +4,10 @@ from flask_mysqldb import MySQL
  
 app = Flask(__name__, template_folder = 'templates')
 
-app.config['MYSQL_HOST'] = 'localhost'
-app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'ibukun33'
-app.config['MYSQL_DB'] = 'cendbb'
+app.config['MYSQL_HOST'] = 'myazure134.mysql.database.azure.com'
+app.config['MYSQL_USER'] = 'Ibukun_33@myazure134'
+app.config['MYSQL_PASSWORD'] = 'Forestgump_33'
+app.config['MYSQL_DB'] = 'myazure134'
 
 mysql = MySQL(app)
 
