@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'ibukunodt'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D7E3B2569A6048A499CE1EEC7FB5087F }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D103A87ECA9A48478D29151D148D8E86 }}
